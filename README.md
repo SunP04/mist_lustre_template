@@ -1,25 +1,19 @@
-# todo_mist_lustre
+# Mist + Lustre Template
 
-[![Package Version](https://img.shields.io/hexpm/v/todo_mist_lustre)](https://hex.pm/packages/todo_mist_lustre)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/todo_mist_lustre/)
+A template made to be as simple as possible, using the given libraries:
 
-```sh
-gleam add todo_mist_lustre
-```
-```gleam
-import todo_mist_lustre
+- [Mist](https://github.com/rawhat/mist) - Web Server
+- [Lustre](https://github.com/lustre-labs/lustre) - HTML/Component Builder
+- [TailwindCSS](https://tailwindcss.com/) - Basic Styling
+- [DaisyUI](https://daisyui.com/) - Advanced Components for Styling
+- [HTMx](https://htmx.org/) - Client-Side Interactivity
 
-pub fn main() {
-  // TODO: An example of the project in use
-}
-```
+## Running the project
 
-Further documentation can be found at <https://hexdocs.pm/todo_mist_lustre>.
+To run the project, first install the [Gleam Programming Language](https://gleam.run/).
 
-## Development
+Then, in your terminal, run the `gleam run` command.
 
-```sh
-gleam run   # Run the project
-gleam test  # Run the tests
-gleam shell # Run an Erlang shell
-```
+## License
+
+This project is under [MIT License](LICENSE).
